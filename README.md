@@ -24,3 +24,14 @@ GPU with more than 20 GB of memory </br>
 
 # Run
 Check out the readme.md in /scripts
+
+# Problem
+I lost the settings I used for the experiment.  </br>
+Results using the code provided by this repository will not match the results of the paper.  </br>
+|method|Mean (paper)|Std. Dev (paper)|SSIM (paper)| |Mean (github)|Std. Dev (github)|SSIM (github)| 
+|------|---|---|---|---|---|---|---|
+|calibnet|1.44|2.87|0.9885| |1.20(-0.24)|2.83(-0.04)|0.9895(+0.0010)|
+|lccnet|2.52|5.05|0.9698| |2.37(-0.15)|4.42(-0.63)|0.9728(+0.0030)|
+|zhang|0.49|0.89|0.9970| |0.69(+0.41)|1.59(+0.7)|0.9948(-0.0022)|
+|ours|0.21|0.71|0.9985| |0.28(+0.07)|1.06(+0.35)|0.9978(-0.0007)|
+I have no excuse. Sorry..  </br>
