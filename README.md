@@ -4,7 +4,7 @@ paper link
 
 # Weights
 Google drive link gives the pre-trained weights of calibnet, lccnet, zhang's network, and our network. </br>
-And download the pre-trained weights from PSMNet's official repository. (KITTI2012) </br>
+PSMNet's KITTI2012 weights are used for evaluation. </br>
 [google drive link](https://drive.google.com/drive/folders/1nnsHzR9cECz9G1VA2lOsapzTY8ksQTI7?usp=drive_link) </br>
 [PSMNet link](https://github.com/JiaRenChang/PSMNet)
 
