@@ -1,5 +1,5 @@
 # trainkitti.py
-Training takes one day. </br>
+Training takes one day. (When using 3 gpus) </br>
 Miscalibration is done using gpu. If your gpu memory is low, you can run it with cpu. . . </br>
 
 # val_kitti.py
