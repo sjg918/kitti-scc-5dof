@@ -7,7 +7,7 @@ Evaluation with iterative refinement and temporal filtering applied. </br>
 I used the same noise for all experiments to control the experiments. (check /gendata/100miscalib~.txt) </br>
 To evaluate the different methods you need to modify lines 14-25, 449-465 of the code. </br>
 Additionally, this code can provide visual results. </br>
-You can get visualization results by input the path argument to the mkPSMdispmap function. </br>
+You can get visualization results by input the path argument to the mkRotImages and mkPSMdispmap functions. </br>
 
 # vis_kitti.py
 Modify lines 200 of the code.. </br>
