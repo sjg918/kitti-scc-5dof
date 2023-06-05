@@ -47,7 +47,7 @@ Results using the code provided by this repository will not match the results of
 I have no excuse. Sorry. </br>
 
 # Problem 2
-There are personal information in the GY dataset. (Vehicle license plate, identifiable face) </br>
+There are personal information in the GY dataset. (Vehicle registration plate, identifiable face) </br>
 Therefore, I cannot in any way provide experiments on the GY dataset. </br>
 I apologize for any inconvenience. </br>
 
