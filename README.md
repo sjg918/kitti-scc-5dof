@@ -21,9 +21,6 @@ pytorch >= 1.13.1 (https://pytorch.org/) </br>
 opencv (pip install opencv-python) </br>
 easydict (pip install easydict) </br>
 numba (pip install numba) </br>
-matplotlib (pip install matplotlib) </br>
-
-GPU with more than 20 GB of memory </br>
 
 # Run
 Check out the readme.md in /scripts
