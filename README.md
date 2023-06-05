@@ -2,8 +2,10 @@
 Implementation of "A CNN-Based Online Self-Calibration of Binocular Stereo Cameras for Pose Change"
 
 # Weights
-This link gives the weights of calibnet, lccnet, zhang's network, and our network. </br>
-[google drive link](https://drive.google.com/drive/folders/1nnsHzR9cECz9G1VA2lOsapzTY8ksQTI7?usp=drive_link)
+Google drive link gives the pre-trained weights of calibnet, lccnet, zhang's network, and our network. </br>
+And download the pre-trained weights from PSMNet's official repository. (KITTI2012) </br>
+[google drive link](https://drive.google.com/drive/folders/1nnsHzR9cECz9G1VA2lOsapzTY8ksQTI7?usp=drive_link) </br>
+[PSMNet link](https://github.com/JiaRenChang/PSMNet)
 
 # Setup
 Download the kitti odometry dataset. </br>
@@ -30,9 +32,9 @@ I lost the settings I used for the experiment.  </br>
 Results using the code provided by this repository will not match the results of the paper.  </br>
 |method|Mean (paper)|Std. Dev (paper)|SSIM (paper)| |Mean (github)|Std. Dev (github)|SSIM (github)| 
 |------|---|---|---|---|---|---|---|
-|calibnet|1.44|2.87|0.9885| |1.20(-0.24)|2.83(-0.04)|0.9895(+0.0010)|
-|lccnet|2.52|5.05|0.9698| |2.37(-0.15)|4.42(-0.63)|0.9728(+0.0030)|
-|zhang|0.49|0.89|0.9970| |0.69(+0.41)|1.59(+0.7)|0.9948(-0.0022)|
-|ours|0.21|0.71|0.9985| |0.28(+0.07)|1.06(+0.35)|0.9978(-0.0007)|
+|calibnet|1.44|2.87|0.9885| |1.19(-0.25)|2.89(+0.02)|0.9893(+0.0008)|
+|lccnet|2.52|5.05|0.9698| |2.12(-0.40)|4.44(-0.61)|0.9740(+0.0042)|
+|zhang|0.49|0.89|0.9970| |0.71(+0.43)|1.72(+0.83)|0.9944(-0.0026)|
+|ours|0.21|0.71|0.9985| |0.27(+0.03)|1.00(+0.29)|0.9980(-0.0005)|
 
 I have no excuse. Sorry..  </br>
