@@ -1,5 +1,6 @@
 # kitti-scc-5dof
 Implementation of "A CNN-Based Online Self-Calibration of Binocular Stereo Cameras for Pose Change"
+paper link
 
 # Weights
 Google drive link gives the pre-trained weights of calibnet, lccnet, zhang's network, and our network. </br>
@@ -38,3 +39,12 @@ Results using the code provided by this repository will not match the results of
 |ours|0.21|0.71|0.9985| |0.27(+0.06)|1.00(+0.29)|0.9980(-0.0005)|
 
 I have no excuse. Sorry..  </br>
+
+# Visualize Attention
+![1](https://github.com/sjg918/kitti-scc-5dof/blob/main/results/000027left.png?raw=true)
+![2](https://github.com/sjg918/kitti-scc-5dof/blob/main/results/000027left_.png?raw=true)
+![3](https://github.com/sjg918/kitti-scc-5dof/blob/main/results/000027left__.png?raw=true)
+</br>
+
+# Special Thanks
+[LCCNet: Lidar and Camera Self-Calibration Using Cost Volume Network](https://github.com/LvXudong-HIT/LCCNet)
