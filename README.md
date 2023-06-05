@@ -28,7 +28,13 @@ GPU with more than 20 GB of memory </br>
 # Run
 Check out the readme.md in /scripts
 
-# Problem
+# Visualize Attention
+![1](https://github.com/sjg918/kitti-scc-5dof/blob/main/results/000027left.png?raw=true)
+![2](https://github.com/sjg918/kitti-scc-5dof/blob/main/results/000027left_.png?raw=true)
+![3](https://github.com/sjg918/kitti-scc-5dof/blob/main/results/000027left__.png?raw=true)
+</br>
+
+# Problem 1
 I lost the settings I used for the experiment.  </br>
 Results using the code provided by this repository will not match the results of the paper.  </br>
 |method|Mean (paper)|Std. Dev (paper)|SSIM (paper)| |Mean (github)|Std. Dev (github)|SSIM (github)| 
@@ -38,13 +44,12 @@ Results using the code provided by this repository will not match the results of
 |zhang|0.49|0.89|0.9970| |0.71(+0.43)|1.72(+0.83)|0.9944(-0.0026)|
 |ours|0.21|0.71|0.9985| |0.27(+0.06)|1.00(+0.29)|0.9980(-0.0005)|
 
-I have no excuse. Sorry..  </br>
+I have no excuse. Sorry. </br>
 
-# Visualize Attention
-![1](https://github.com/sjg918/kitti-scc-5dof/blob/main/results/000027left.png?raw=true)
-![2](https://github.com/sjg918/kitti-scc-5dof/blob/main/results/000027left_.png?raw=true)
-![3](https://github.com/sjg918/kitti-scc-5dof/blob/main/results/000027left__.png?raw=true)
-</br>
+# Problem 2
+There are personal information in the GY dataset. (Vehicle license plate, identifiable face) </br>
+Therefore, I cannot in any way provide experiments on the GY dataset. </br>
+I apologize for any inconvenience. </br>
 
 # Special Thanks
 [LCCNet: Lidar and Camera Self-Calibration Using Cost Volume Network](https://github.com/LvXudong-HIT/LCCNet)
