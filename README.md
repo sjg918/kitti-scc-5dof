@@ -10,7 +10,7 @@ Download the kitti odometry dataset. </br>
 Replace all calib.txt in data folder with calib.txt downloaded from "Download odometry data set (calibration files, 1 MB)". </br>
 (('Tr') line does not exist, giving an error.) </br>
 
-Open the cfg files in the CFG folder and modify the paths. </br>
+Open the cfg file in the CFG folder and modify the paths. </br>
 
 # Requirement
 ak z
