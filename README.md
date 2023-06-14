@@ -1,6 +1,6 @@
 # kitti-scc-5dof
 Implementation of "A CNN-Based Online Self-Calibration of Binocular Stereo Cameras for Pose Change" </br>
-paper link
+[paper link(Early Access)](https://ieeexplore.ieee.org/document/10138428)
 
 # Weights
 Google drive link gives the pre-trained weights of calibnet, lccnet, zhang's network, and our network. </br>
