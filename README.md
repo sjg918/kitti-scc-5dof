@@ -41,12 +41,9 @@ Results using the code provided by this repository will not match the results of
 |zhang|0.49|0.89|0.9970| |0.71(+0.43)|1.72(+0.83)|0.9944(-0.0026)|
 |ours|0.21|0.71|0.9985| |0.27(+0.06)|1.00(+0.29)|0.9980(-0.0005)|
 
-I have no excuse. Sorry. </br>
-
 # Problem 2
 There are personal information in the GY dataset. (Vehicle registration plate, identifiable face) </br>
 Therefore, I cannot in any way provide experiments on the GY dataset. </br>
-I apologize for any inconvenience. </br>
 
 # Special Thanks
 [LCCNet: Lidar and Camera Self-Calibration Using Cost Volume Network](https://github.com/LvXudong-HIT/LCCNet)
