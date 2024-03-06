@@ -94,6 +94,23 @@ def rotation_matrix_from_quaternion(q):
     mat[2, 2] = 1 - 2*q[1]**2 - 2*q[2]**2
     return mat
 
+@numba.jit
+def rot_and_trs_points_kernel(points, newpoints, R, numpoints):
+    for i in range(numpoints):
+        p = points[i]
+        kew = np.dot(R, p.T)
+        newpoints[i, 0] = kew[0]
+        newpoints[i, 1] = kew[1]
+        newpoints[i, 2] = kew[2]
+        continue
+
+def rot_and_trs_points(points ,R):
+    o = np.ones((points.shape[0], 1), dtype=np.float32)
+    points = np.concatenate((points, o), axis=1)
+    newpoints = np.zeros((points.shape[0], 3), dtype=np.float32)
+    rot_and_trs_points_kernel(points.astype(np.float32), newpoints, R.astype(np.float32), points.shape[0])
+    return newpoints
+
 
 def rot_and_trs_points_cuda(points ,R):
     o = torch.ones((points.shape[0], 1), dtype=torch.float32, device=points.device)
